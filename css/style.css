@@ -1,0 +1,377 @@
+body{
+	font-family: 'Segoe UI';
+	margin: 0;
+	background-color: #A0A0A0;
+}
+
+.logo{
+	background-color: #565866;
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: relative;
+}
+
+.image-logo{
+	max-height: 157px;
+	max-width: 150px;
+	margin-left: 140px;
+
+}
+
+.social{
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	font-size: 28px;
+
+}
+
+.social a{
+	color: #8D9EBE;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.main-menu{
+	text-align: center;
+
+	margin-top: -80px;
+
+}
+
+.main-menu ul{
+	list-style: none;
+	
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin: 5px 40px;
+	border: 10px solid  #2D2A2A;
+	border-right-width: 20px;
+	border-left-width: 20px;
+	border-radius: 20px;
+	background-color: #2D2A2A;
+
+}
+
+.main-menu ul li a{
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	transition: all 0.2s ease-in;
+}
+
+.main-menu ul li a:hover{
+
+	color: #8DABC2;
+	border-bottom: 2px solid #8DABC2;
+}
+
+.slider img {
+	width: 100%;
+
+}
+.buscador{
+	text-align: left;
+	background-color: black;
+	color: white;
+
+}
+.buscador h2{
+	margin: 0;
+	text-align: center;
+}
+
+.buscador input{
+	width: 30%;
+	margin-left: 240px;
+	text-align: left;
+	margin-bottom: 15px;
+	
+	border: none;
+	background-color: #6F6F6F;
+	margin-top: 10px;
+
+}
+
+.buscador button{
+	border:none;
+	background-color: #0E5C1B;
+	color: white;
+	height: 20px;
+	width: 80px;
+	border-radius: 10px;
+	margin-left: 10px
+}
+
+.card {
+	width: 30%;
+	border: 1px solid  #d6d2d2;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+	
+}
+
+.card-hero img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.card-hero {
+	position: relative;
+
+}
+
+
+/*Productos*/
+.Pcard {
+	
+	border: 1px solid  #d6d2d2;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+	
+	
+}
+
+.Pcard-prod img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+¨.Pcard-prod {
+	position: relative;
+
+
+}
+.Pcontainer{
+	width: 90%;
+	
+
+}
+
+
+.productos .Pcontainer{
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+	
+
+}
+
+/*Productos*/
+
+.container{
+	max-width: 1170px;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+
+.contact .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.productos .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.btn-card-show {
+	display: none;
+	background-color: #A0A0A0;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding-top: 10px;
+	position: absolute;
+	padding-bottom: 10px;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -50px;
+
+}
+
+
+.btn-card-show:hover{
+	background-color: #1CA311;
+
+}
+
+.card-hero:hover .btn-card-show{
+	display: block;
+}
+
+.card-title{
+	text-align: center;
+}
+
+.card-title::after{
+	content: '';
+	background-color: #1CA311;
+	height: 1px;
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+}
+
+
+/*Contacto*/
+.contacto {
+	background-color: white;
+}
+.title-contact{
+	color: black;
+	padding-left: 150px;
+	padding-top: 50px;
+	
+}
+
+.img-contact{
+	margin: 0;
+	text-align: right;
+
+}
+.img-contact img{
+	width: 70%;
+
+}
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px 30px;
+	width: 30%;
+	
+}
+
+.contact-form input[type="text"]{
+	display: block;
+}
+
+.form-control {
+	width: 100%;
+	margin:  7px 0;
+	padding: 7px 0;
+	border-radius: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+}
+
+.btn-contact{
+	background-color: #32618D;
+	color: white;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: none;
+}
+
+
+
+/*Contacto*/
+
+
+@media screen and (max-width: 1200px){
+	body{
+		
+	}
+}
+
+@media screen and (max-width: 768px){
+	body{
+		
+	}
+	.header {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo{
+		order: 2;
+	}
+	.social{
+		background-color: #32618D;
+		position: initial;
+		display: flex;
+		justify-content: flex-end;
+		order: 1;
+		padding-top: 10px;
+		padding-right: 20px;
+
+	}
+	.main-menu{
+		order: 3;
+	}
+	.main-menu ul li{
+		display: block;
+		padding: 5px;
+	}
+	.slider img {
+		width: 100%;
+	}
+	.card {
+		box-sizing: border-box;
+		width: 45%;
+		margin-bottom: 15px;
+
+	}
+	.productos .container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0 15px;
+		
+	}
+	.contact .container{
+		display: flex;
+		flex-direction: column;
+	}
+	.form-control {
+	width: 100%;
+	margin:  7px 0;
+	padding: 7px 0;
+	border-radius: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	width: 100%
+}
+
+}
+
+@media screen and (max-width: 480px){
+	body{
+		background-color: pink;
+		
+	}
+
+	
+	.card {
+		width: 100%
+	}
+	
+}
+
+@media screen and (max-width: 320px){
+	
+}
