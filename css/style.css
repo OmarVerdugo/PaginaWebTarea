@@ -418,3 +418,34 @@ body{
 	
 }
 
+@media screen and (max-width: 360px){
+	body{
+		
+		
+	}
+	.main-header{
+		margin: 0;
+	}
+	.logo .main-menu{
+		text-align: center;
+		padding-right: 100px;
+		padding-top: 50px;
+	}
+	.main-menu ul li {
+    display: block;
+    padding: 5px;
+    width: 100px;
+	}
+
+	.logo img{
+		margin-left: 120px;
+	}
+	
+	.title-contact{
+		margin-left: 0;
+	}
+	.card {
+		width: 100%
+	}
+	
+}
